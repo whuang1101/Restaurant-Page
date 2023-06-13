@@ -1,0 +1,28 @@
+.main-contact {
+    color: white;
+    font-size: 2em;
+    width: 32rem;
+    height:auto;
+    opacity: .9;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    gap: 1em;
+    animation: fadeIn 2s;
+}
+.phone {
+    width:1em;
+    height:1em;
+}
+.contact-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: .7em;
+    gap: .2em;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: .9; }
+}
